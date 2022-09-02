@@ -1,5 +1,5 @@
 ## Base64 to Webp [🐾](./main.md)
-[Ejemplo de uso 🦝](http://ratapan.com/tools/bs64ToWebp/main.html "Ratapan.com/tools")
+[Ejemplo de uso 🦝](https://ratapan.com/repo/pages/imagesToWebp.html "Ratapan.com/repo/pages/")
 
 
 ```javascript
