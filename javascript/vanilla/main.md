@@ -4,4 +4,4 @@
 ### 👾 [Fetch Example](./fetchExample.md)
 ### 🙊 [Reconocimiento de voz](./voiceToText.md)
 ### 🤺 [Items duplicados](./duplicatesList.md)
-### 🐱‍💻 [Efecto de movimiento](./moveEfect.md.md)
+### 🐱‍💻 [Efecto de movimiento](./moveEfect.md)
