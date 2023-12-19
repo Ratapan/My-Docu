@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ratapan Elemnts</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="fff0d0" />
+    <meta
+      name="description"
+      content="Esta va a ser una libreria de web components :)"
+    />
+    <script type="module" src="./webComponents/components.js"></script>
+   
+  </head>
+  <body class="scroll">
+    <section class="section scroll">
+      <article class="card">   
+        <rtp-crop
+        id="input-crop"
+        output-height="500"
+        output-width="500"
+        output-type="webp"
+        style-height="100px"/>
+      </article>
+    </section>
+   <section class="section scroll">
+    <h1>Use of web components</h1>
+    <div>
+      class Component extends HTMLElement {
+      </br>&#8195;constructor(...args) {
+      </br>&#8195;&#8195;super(...args);
+      </br>&#8195;&#8195;// Initialization code here
+      </br>&#8195;}
+      </br>  
+      </br>&#8195;connectedCallback() {
+      </br>&#8195;&#8195;// DOM-related initialization
+      </br>&#8195;}
+      </br>  
+      </br>&#8195;disconnectedCallback() {
+      </br>&#8195;&#8195;// Cleanup
+      </br>&#8195;}
+      </br>  
+      </br>&#8195;adoptedCallback() {
+      </br>&#8195;&#8195;// Called when moved to new document
+      </br>&#8195;}
+      </br>  
+      </br>&#8195;static get observedAttributes() { return ['some-attribute']; }
+      </br>  
+      </br>&#8195;attributeChangedCallback(name, oldValue, newValue) {
+      </br>&#8195;&#8195;// React to attribute changes
+      </br>&#8195;}
+      </br>  
+      </br>&#8195;// Custom methods
+      </br>&#8195;validate() {
+      </br>&#8195;&#8195;// Custom validation logic
+      </br>&#8195;}
+      </br>}
+      </br>
+      </br>customElements.define('rtp-component', Component);
+    </div>
+   </section>
+    <section class="section scroll">
+      <h1>rtp-table</h1>
+      <rtp-table
+      data-url="https://chefcito-back-production.up.railway.app/food"
+      separator-keys=";"
+      image-keys="img"
+      strong-keys="price;name"
+      drop-keys="_id;type;createdAt;updatedAt"
+      />
+    </section>
+    <section>
+      
+    </section>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'MyFont', sans-serif;
+    font-weight: 500;
+    color: var(--c-font);
+  }
+  
+  video {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+  }
+  
+  p a {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+   text-decoration: none;
+    color: var(--c-link);
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  table,
+  tr,
+  td {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--c-bg);
+    transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    -o-transition: background-color .4s;
+  }
+  #__nuxt,html,body{
+    min-height: 100vh;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: 'MyFont', sans-serif;
+    font-weight: 500;
+    margin: 0 0 var(--space-2) 0;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    margin: 0 0 var(--space-3) 0;
+    font-family: 'MyFont', sans-serif;
+    font-weight: 400;
+  }
+
+  ::-moz-selection {
+    background-color: var(--c-selec);
+  }
+  
+  ::selection {
+    background-color: var(--c-select);
+  }
+  
+  form,
+  input,
+  textarea,
+  select,
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: var(--c-bg_2);
+    display: block;
+    outline: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px var(--c-link);
+    background-color: var(--c-bg);
+    transition: background-color .2s;
+    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    
+  }
+  button:hover{
+    background-color: var(--c-bg_2);
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+    color: var(--c-link);
+    border-color: var(--c-link);
+  }
+
+  strong{
+    font-family: 'MyFont', sans-serif;
+    font-weight: 600;
+  }

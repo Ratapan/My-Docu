@@ -1,0 +1,42 @@
+@import "./style/_typography.css";
+@import "./style/_variable.css";
+@import "./style/_reset.css";
+
+.scroll {
+  overflow: auto;
+}
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: rgba(100, 100, 100, 0.1);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.2);
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.3);
+}
+
+.section {
+  height: 100dvh;
+  padding: var(--space-2) var(--space-3);
+  display: grid;
+  place-items: center;
+}
+.card {
+  width: 400px;
+  max-width: 500px;
+  border: 1px solid var(--c-font_2);
+  box-shadow: 4px 4px 8px var(--c-bg_2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--space-2);
+  -webkit-border-radius: var(--space-2);
+  -moz-border-radius: var(--space-2);
+  -ms-border-radius: var(--space-2);
+  -o-border-radius: var(--space-2);
+}
